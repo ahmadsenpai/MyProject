@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hofipulsa.myproject.AddMemberActivity"
+    android:orientation="vertical"
+    android:padding="25sp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Add Member"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_group_add"
+        android:padding="25dp"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/addNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input name"/>
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/addPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input phone number"/>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="40dp"
+        android:textColor="@color/white"
+        android:background="@drawable/deep_sea"
+        android:textStyle="bold" />
+
+</LinearLayout>

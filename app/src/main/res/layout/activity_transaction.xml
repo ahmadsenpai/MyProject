@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    tools:context="com.hofipulsa.myproject.TransactionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ORDER DETAIL"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Name"
+                android:padding="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:text="Products"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/nama" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/boxTsel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sp Data simPATI"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtyTsel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plusTsel"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_plus" />
+
+                <Button
+                    android:id="@+id/minTsel"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_min" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/boxXl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sp Data XL"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtyXl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plusXl"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_plus" />
+
+                <Button
+                    android:id="@+id/minXl"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_min" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/boxIsat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sp Data Indosat"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtyIsat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plusIsat"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_plus" />
+
+                <Button
+                    android:id="@+id/minIsat"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_min" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/boxAxis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sp Data Axis"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtyAxis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plusAxis"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_plus" />
+
+                <Button
+                    android:id="@+id/minAxis"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_min" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/boxThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sp Data Three"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/qtyThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:text="0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plusThree"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_plus" />
+
+                <Button
+                    android:id="@+id/minThree"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_min" />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/order"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/deep_sea"
+                android:drawableLeft="@drawable/ic_shopping_cart"
+                android:padding="10dp"
+                android:text="Submit Orders"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/reset"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/deep_sea"
+                android:drawableLeft="@drawable/ic_refresh"
+                android:padding="10dp"
+                android:text="Reset Orders"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/totalview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Total"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

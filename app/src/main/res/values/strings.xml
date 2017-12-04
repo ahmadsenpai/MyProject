@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyProject</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="android_layout_arrays">
+        <item>Choose Producta</item>
+        <item>Paket Internet simPATI</item>
+        <item>Paket Internet XL</item>
+        <item>Paket Internet Indosat Ooredoo</item>
+        <item>Paket Internet Axis</item>
+        <item>Paket Internet Three</item>
+    </string-array>
+
+</resources>

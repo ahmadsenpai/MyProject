@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    tools:context="com.hofipulsa.myproject.AddMemberActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Add Member Success"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableTop="@drawable/ic_group_add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Name"
+        android:textAppearance="@android:style/TextAppearance.Small"/>
+    <TextView
+        android:id="@+id/resName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="Phone"
+        android:textAppearance="@android:style/TextAppearance.Small"/>
+    <TextView
+        android:id="@+id/resPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You for Join With Us"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/deep_sea"
+        android:textStyle="bold" />
+
+</LinearLayout>
